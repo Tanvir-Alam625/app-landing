@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppines', sans-serif;
+}
+.hero{
+    width: 100%;
+    position: relative;
+    margin: 100px auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.btn-box{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 250px;
+    border: 2px solid lightgray;
+
+}
+.btn-box button{
+    border: none;
+    outline: none;
+    color: lightgray;
+    padding: 7px 35px;
+    cursor: pointer;
+    position: relative;
+    left: 13px;
+    border-radius: 20px;
+    margin-left: -26px;
+    background-color: transparent;
+    font-size: 18px;
+}
+.btn-box button:hover{
+    background-color: #007ACC;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}

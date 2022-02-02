@@ -1,0 +1,475 @@
+*{
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Myriad Pro;
+    font-style: regular;
+    font-synthesis: style;
+}
+/*------------Header--------------------------*/
+.pad-1{
+    padding-top: 20px;
+}
+
+/*--------------------slider--------*/
+
+.btn-primary{
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.toused-button{
+    color: #fff;
+    text-decoration: none;
+
+}
+.toused-button:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#slider{
+    height: 834px;
+    width: auto;
+    background-image: url(Image/slider.gif);
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+.head{
+    width: 550px;
+    height: 430px;
+    background-color: transparent;
+    /* border: 1px solid #000;  */
+    position: absolute;
+    z-index: 1;
+    top: 280px;
+    left: 200px;
+    padding: 10px;
+}
+@media screen and (max-width:900px){
+    .head{
+        left: 20px;
+        width: 350px;
+        padding: 5px;
+        height: 330px;
+    }
+   
+}
+
+.editior-image{
+    margin: 20px;
+}
+.editior-image img{
+    cursor: pointer;
+}
+
+.heading-1{
+    margin: 20px;
+}
+.heading-1 h1{
+    font-size: 60px;
+    font-family: Myriad Pro;
+    font-style: regular;
+    font-synthesis: style;
+    color: #242F51;
+}
+@media screen and (max-width:900px){
+    .heading-1 h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: #242F51;
+    }
+}
+.paragraph{
+    margin: 20px;
+    font-size: 18px;
+    font-family: Myriad Pro;
+    font-style: regular;
+    color: #6F7175;
+}
+.watch{
+    color: #2805F9;
+    text-decoration: none;
+    font-family: Myriad Pro;
+    font-style: regular;
+}
+.try-btn:hover{
+    box-shadow: 0px  2px 10px lightgray;
+}
+@media screen and (max-width:900px){
+    .paragraph p{
+        font-size: 14px;
+    }
+    .editior-image img{
+        width: 250px;
+    }
+    .watch{
+        font-size: 14px;
+    }
+}
+
+.btn-video{
+    margin: 20px;
+}
+#trusted{
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+#trusted h6{
+    font-size: 18px;
+    color: #242F51;
+    font-weight: bold;
+}
+.companies-image{
+    margin-top: 40px;
+}
+@media all and (max-width:900px){
+    #trusted h6{
+        font-size: 25px;
+        
+    }
+    #trusted{
+        margin-bottom: 100px;
+        z-index: 2;
+    }
+    .companies-image img{
+        margin-bottom: 40px;
+        padding: 5px;
+        border-bottom: 0.5px solid lightgray;
+    }
+
+}
+
+#trusted img{
+    margin: 10px;
+}
+/*------------------awesome-apps-features--------------------------*/
+#awesome-apps-features{
+    margin-top: 100px;
+    position: relative;
+}
+.vector-images img{
+    background-size: cover;
+    background-position: center;
+}
+.awesome-head{
+    margin-bottom: 100px;
+    padding-top: 80px;
+}
+.awesome-head h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #242F51;
+}
+.speed-meters h2{
+    font-size: 23px;
+    color: #F55767;
+}
+.prototying-text h2
+{
+    font-size: 23px;
+    color: #4074FF;
+}
+.vector-edit h2{
+    font-size: 23px;
+    color: #40975F;
+}
+.productivity-awesome{
+    padding-left: 120px;
+}
+/*-------------------------Smart jackpots that you may love this anytime & anywhere-------*/
+#smart-jackport{
+    margin: 100px 10px;
+}
+.jackport-head h2{
+    font-size: 45px;
+    color: #242F51;
+    font-weight: bold;
+}
+.jackport-head p{
+    color: #929397;
+}
+.jackport-paragaraph p{
+    padding-top: 40px;
+}
+.autommatics{
+    margin-top: 100px;
+}
+.autommatics img{
+    margin-bottom: 50px;
+}
+.autommatics h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.payouts h3{
+    color: #FA9FA9;
+}
+.effect h3{
+    color: #5C89FF;
+}
+.method h3{
+    color: #8DBF9E;
+}
+.all-items{
+    align-items: unset;
+}
+@media screen and (max-width:900px){
+    .Shape-image{
+        display: none;
+        position: hidden;
+    }
+    .all-items{
+        text-align: center;
+        padding: 50px;
+    }
+    .smart-head{
+        text-align: center;
+    }
+}
+/*----------Designed & built by the latest code integration-------------*/
+#integration{
+    margin-bottom: 100px;
+}
+.designed-file{
+    padding-left: 120px;
+    padding-top: 160px;
+}
+.designed-file h2{
+    font-weight: bold;
+    color: #253052;
+    margin-bottom: 40px;
+}
+.designed-file p{
+    margin-bottom: 30px;
+}
+@media all and (max-width:900px){
+    .designed-file{
+        text-align: center;
+    }
+}
+/*why you should chooose our app-------------*/
+.choose-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.choose-head h2{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    color: #3B4462;
+}
+.Choose-files{
+    text-align: center;
+}
+.Choose-files img{
+    margin-bottom: 30px;
+}
+.Choose-files h4{
+    font-weight: bold;
+    color: #3B4462;
+
+}
+.number-1{
+    margin-top: 50px;
+}
+#choose-app{
+    margin-bottom: 100px;
+}
+/*------Ultimate features that we built---------------*/
+.ultimate-btn{
+    font-family: Myriad Pro;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.ultimate-file img{
+    padding-bottom: 30px;
+}
+.new-row{
+    margin-top: 50px;
+}
+.ultimate-file h4{
+    font-weight: bold;
+    color: #3B4462;
+}
+#ultiamte-features{
+    margin-bottom: 100px;
+}
+.ultimate-image{
+    background-position: center;
+    background-size: cover;
+}
+/*Get awesome features, without extra chaarges----------------------*/
+
+#extra-charges{
+    margin: 50px;
+    padding: 20px;
+
+}
+.extra-charges-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.extra-charges-head h2{
+    font-weight: bold;
+    color: #3B4462;
+}
+/*button tabs*/
+.tab {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+/* .tabs-btn{
+    max-width: 800px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.tabs-btn ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tabs-btn ul li label{
+    position: relative;
+    display: block;
+    padding: 8px 15px;
+    cursor: pointer;
+    min-width: 100px;
+    background-color: #0effcb9f;
+    color: lightgray;
+    border-radius: 80px 130px 0;
+    font-weight: bold;
+    margin: 3px;
+ 
+}
+.tabs-btn ul li label:hover{
+    background-color: white;
+    border: 1px solid #0effcb9f;
+}
+.tabs-btn ul li:nth-child(1) label{
+    background-color: green;
+}
+.tabs-btn ul li:nth-child(2) label{
+    background-color: green;
+} */
+
+
+.row-nbr-1{
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+.pric-productivty{
+    margin: 20px;
+    padding: 0px;
+    height: 410px;
+    transition: 0.6s;
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: 10px;
+}
+.pric-productivty:hover{
+    /* transform: scale(1); */
+    zoom: 1;
+    box-shadow: 0px 2px 20px gray;
+}
+
+.price-walet{
+    background-image: linear-gradient( white, rgb(230, 228, 228));
+    position: relative;
+
+}
+.price-walet h4{
+    font-size: 45px;
+    font-weight: bold;
+    color: #323C5B;
+    padding-top: 20px;
+
+}
+.price-walet span{
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+}
+.price-walet label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #323C5B;
+    margin: 0px;
+}
+.price-walet p{
+    font-size: 14px;
+    color: gray;
+}
+.price-pragraph{
+    text-align: center;
+    padding: 5px;
+}
+.price-pragraph ul{
+    list-style: none;
+    display: inline;
+}
+.price-pragraph ul li{
+    color: gray;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.price-pragraph button{
+    width: 100%;
+    background-color: #2500F9;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    border: 0px;
+    height: 40px;
+    font-size: 13px;
+    margin: 20px 0px;
+    transition: 0.5s;
+
+}
+.price-pragraph button:hover{
+    background-color: lightgray;
+    color:  #323C5B;
+
+}
